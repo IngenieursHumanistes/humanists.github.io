@@ -1,0 +1,19 @@
+baseURL = "https://humanists.io/"
+languageCode = "fr-FR"
+title = "Ingénieurs humanistes"
+paginate = 4
+
+
+[[menu.main]]
+  identifier = "post"
+  name = "Post"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 2
+
+[params]
+  footnote = "<a class=link href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh target=_blank rel=noopener>CC BY-NC-SA 4.0</a>"
